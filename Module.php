@@ -5,15 +5,15 @@ namespace fat2fast\auth;
 use Yii;
 
 /**
- * yii2-authz module definition class
+ * yii2-auth module definition class
  */
 class Module extends \yii\base\Module
 {
 
     public $userIdentityClass = 'fat2fast\auth\models\user\User';
     // Default view path can override the view path
-    public $pathViewSite = '@lsat/authz/views/site/';
-    public $pathViewUser = '@lsat/authz/views/user/';
+    public $pathViewSite = '@fat2fast/auth/views/site/';
+    public $pathViewUser = '@fat2fast/auth/views/user/';
 
     public $otpConfigurations = [
         'otpMessage' => 'Ma OTP cua ban la {token}. Vui long KHONG chia se ma OTP voi bat ky ai.',
@@ -45,7 +45,7 @@ class Module extends \yii\base\Module
             throw new \InvalidArgumentException($this->userIdentityClass . " must be an instance of \fat2fast\auth\models\User");
         }
         // custom initialization code goes here
-        Yii::setAlias('@authz', __DIR__);
+        Yii::setAlias('@auth', __DIR__);
         $this->registerTranslations();
     }
 
@@ -54,7 +54,7 @@ class Module extends \yii\base\Module
         Yii::$app->i18n->translations['authz'] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en',
-            'basePath' => '@authz/messages',
+            'basePath' => '@auth/messages',
             'fileMap' => [
                 'authz' => 'app.php'
             ]
