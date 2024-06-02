@@ -1,0 +1,30 @@
+{
+    "name": "fat2fast/yii2-auth",
+    "description": "Fat Too Fast Yii2 Auth",
+    "keywords": ["yii2", "fat2fast","f2f", "authentication"],
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=7.4.0",
+        "yiisoft/yii2": "~2.0.14",
+        "lsat/yii2-otp": "~1.0.0"
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "PhatPhong",
+            "email": "phat.pnh2019@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "fat2fast\\auth\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "develop"
+        }
+    }
+}
