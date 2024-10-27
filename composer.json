@@ -6,7 +6,7 @@
     "require": {
         "php": ">=7.4.0",
         "yiisoft/yii2": "~2.0.14",
-        "lsat/yii2-otp": "~1.0.0"
+        "fat2fast/yii2-otp": "~1.0.0"
     },
     "license": "GPL-3.0",
     "authors": [
@@ -24,7 +24,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "develop"
+            "dev-master": "1.0-dev"
         }
     }
 }
