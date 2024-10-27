@@ -4,8 +4,8 @@
 /* @var $userProvider yii\data\ActiveDataProvider */
 /* @var $searchModel */
 
+use fat2fast\auth\components\Helper;
 use fat2fast\auth\models\User;
-use mdm\admin\components\Helper;
 use yii\grid\ActionColumn;
 use yii\helpers\Html;
 

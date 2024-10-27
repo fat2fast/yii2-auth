@@ -134,7 +134,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="text-center">
                         <p class="mb-0 footer-detail">&copy;
                             <script>document.write(new Date().getFullYear())</script>
-                             L.C.S Company . Crafted with <i class="mdi mdi-heart text-danger"></i> by LCS
+                             <?php echo Yii::$app->params['authz.fullNameOrganization'] ?? "Fat2Fast" ?> . Crafted with <i class="mdi mdi-heart text-danger"></i> by <?php echo Yii::$app->params['authz.acronymOrganization'] ?? "F2F" ?>
                         </p>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 
 use Da\QrCode\Contracts\ErrorCorrectionLevelInterface;
 use Da\QrCode\Writer\PngWriter;
-use lsat\otp\widgets\OtpInit;
+use fat2fast\otp\widgets\OtpInit;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 

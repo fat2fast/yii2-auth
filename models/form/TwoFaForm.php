@@ -3,7 +3,7 @@
 namespace fat2fast\auth\models\form;
 
 use fat2fast\auth\models\User;
-use lsat\otp\Otp;
+use fat2fast\otp\Otp;
 use Yii;
 use yii\base\Model;
 use yii\web\IdentityInterface;

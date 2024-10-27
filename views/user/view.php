@@ -1,7 +1,6 @@
 <?php
 
-use kartik\grid\GridView;
-use mdm\admin\components\Helper;
+use fat2fast\auth\components\Helper;
 use yii\helpers\Html;
 use yii\widgets\DetailView;
 

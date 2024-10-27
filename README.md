@@ -16,7 +16,7 @@ docker-compose exec api yii migrate-module
 
 ### Config composer.json
 
-#### Config local để dev không push change composer.json này lên 
+#### Config local to development , not push change composer.json to git 
 
 ```
  "require" : {
@@ -69,4 +69,9 @@ docker-compose exec api yii migrate-module
 ```
 php yii migrate/create ModuleMigrationName --migrationPath=@fat2fast/auth/migrations
 ```
-
+config `params.php`
+```
+authz.fullNameOrganization
+authz.acronymOrganization
+authz.TitleLogin
+```

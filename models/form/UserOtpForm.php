@@ -2,7 +2,7 @@
 
 namespace fat2fast\auth\models\form;
 
-use lsat\otp\Otp;
+use fat2fast\otp\Otp;
 use yii\base\Model;
 
 class UserOtpForm extends Model

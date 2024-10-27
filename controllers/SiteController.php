@@ -6,7 +6,7 @@ use fat2fast\auth\forms\LoginForm;
 use fat2fast\auth\forms\RequestOTPForm;
 use fat2fast\auth\forms\VerifyOTPForm;
 use fat2fast\auth\models\form\TwoFaForm;
-use lsat\otp\behavior\OtpBehavior;
+use fat2fast\otp\behavior\OtpBehavior;
 use Yii;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;

@@ -5,7 +5,7 @@ namespace fat2fast\auth\controllers;
 use fat2fast\auth\models\form\UserChangePassword;
 use fat2fast\auth\models\form\UserForm;
 use fat2fast\auth\models\form\UserOtpForm;
-use lsat\otp\behavior\OtpBehavior;
+use fat2fast\otp\behavior\OtpBehavior;
 use Yii;
 use yii\base\UserException;
 use yii\filters\VerbFilter;
